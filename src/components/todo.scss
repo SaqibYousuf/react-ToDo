@@ -1,0 +1,65 @@
+.todo .todoFields {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(161, 174, 243);
+    height: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(66, 60, 88);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+}
+.Action {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.todoFields input {
+    height: 40px;
+    width: 250px;
+    background-color: rgb(161, 174, 243);
+    border: none;
+    box-shadow: 1px 1px 12px -6px black;
+    border-radius: 12px;
+    padding: 0px 10px;
+    outline: none;
+}
+.todo-head {
+    text-align: center;
+    background-color: rgb(66, 60, 88);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-head h2 {
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+}
+#table {
+    width: 100%;
+    text-align: center;
+}
+#table td {
+    font-size: 16px;
+}
+#table th {
+    font-size: 20px;
+}
+#table tr {
+    border-bottom: 1px solid gray;
+}
+thead {
+    width: 100%;
+}
